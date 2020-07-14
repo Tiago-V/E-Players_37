@@ -17,6 +17,10 @@ namespace E_Players_AspNETCore.Models
             CreateFolderAndFile(PATH);
         }
 
+        /// <summary>
+        /// Cria linha
+        /// </summary>
+        /// <param name="e">Equipe a ser adicionada</param>
         public void Create(Equipe e)
         {
             string[] linha = { PrepararLinha(e) };
@@ -27,6 +31,10 @@ namespace E_Players_AspNETCore.Models
             return $"{e.IdEquipe};{e.Nome};{e.Imagem}";
         }
 
+        /// <summary>
+        /// Deleta linha
+        /// </summary>
+        /// <param name="id">Id da Equipe a ser excluída</param>
         public void Delete(int id)
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
@@ -36,6 +44,10 @@ namespace E_Players_AspNETCore.Models
 
         }
 
+        /// <summary>
+        /// Lê todas as linhas do csv
+        /// </summary>
+        /// <returns>Lista de Equipes</returns>
         public List<Equipe> ReadAll()
         {
             List<Equipe> equipes = new List<Equipe>();
@@ -55,6 +67,10 @@ namespace E_Players_AspNETCore.Models
 
         }
 
+        /// <summary>
+        /// Atualiza Linha
+        /// </summary>
+        /// <param name="e">Equipe a ser atualizada</param>
         public void Update(Equipe e)
         {
             List<string> linhas = ReadAllLinesCSV(PATH);
