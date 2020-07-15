@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_Geral\\E-Players_37\\E-Players_AspNETCore.csproj": {}
+    "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_37\\E-Players_AspNETCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_Geral\\E-Players_37\\E-Players_AspNETCore.csproj": {
+    "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_37\\E-Players_AspNETCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_Geral\\E-Players_37\\E-Players_AspNETCore.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_37\\E-Players_AspNETCore.csproj",
         "projectName": "E-Players_AspNETCore",
-        "projectPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_Geral\\E-Players_37\\E-Players_AspNETCore.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_37\\E-Players_AspNETCore.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_Geral\\E-Players_37\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\E-Players_37\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
